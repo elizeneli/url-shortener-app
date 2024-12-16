@@ -1,0 +1,40 @@
+.shorten-url-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.shorten-url,
+.add-expiration {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.shorten-url h3 {
+  margin-bottom: 10px;
+}
+
+.shorten-url input,
+.add-expiration select,
+.shorten-url button {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.add-expiration {
+  margin-top: 60px;
+}
+.shorten-url button {
+  width: 150px;
+  background-color: #92278f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shorten-url button:hover {
+  background-color: #b740b3;
+}
